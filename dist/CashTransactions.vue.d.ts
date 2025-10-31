@@ -3,9 +3,11 @@ import { CashTransactionsProps } from './index';
 declare const _default: import('vue').DefineComponent<CashTransactionsProps, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     "row-click": (row: CashTransaction) => any;
     minimize: () => any;
+    maximize: () => any;
 }, string, import('vue').PublicProps, Readonly<CashTransactionsProps> & Readonly<{
     "onRow-click"?: ((row: CashTransaction) => any) | undefined;
     onMinimize?: (() => any) | undefined;
+    onMaximize?: (() => any) | undefined;
 }>, {
     accountId: string;
     showHeaderLink: boolean;
